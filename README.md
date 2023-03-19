@@ -2,7 +2,9 @@
 
 一个alfred的OCR workflow，可以将pdf书籍通过截图来识别为文字
 
-代码来自mengbo的https://github.com/mengbo/baidu-ocr，只是简单对其进行了alfred的移植。
+代码来自mengbo的https://github.com/mengbo/baidu-ocr
+
+本项目只是简单对其进行了alfred的移植。
 
 环境依赖：测试平台为macOS, 需要装的软件有homebrew，pngpaste（图片转为base64编码）、jq（格式化返回值）、opencc（繁体转简体，可不使用，如果无需此功能，需修改workflow里的脚本）
 
